@@ -38,7 +38,8 @@
 * 只能使用半角英文字母、数字、下划线（_）作为数据库、表和列的名称
 * 名称必须以半角英文字母开头
 
-'''sql
+
+```sql
 CREATE DATABASE ch01;
 USE ch01;
 
@@ -51,7 +52,7 @@ CREATE TABLE product(
 	regist_date 	DATE ,
 	PRIMARY KEY (product_id)
  );
- 
+
 -- -- 包含列清单
 -- INSERT INTO productins (product_id, product_name, product_type, sale_price, purchase_price, regist_date) VALUES ('0005', '高压锅', '厨房用具', 6800, 5000, '2009-01-15');
 -- -- 省略列清单
@@ -98,4 +99,4 @@ DROP TABLE Addressbook;
 
 -- 是否可以编写 SQL 语句来恢复删除掉的 Addressbook 表？
 -- 答：无法恢复
-'''
+```
