@@ -115,7 +115,9 @@ SELECT product_type, SUM(sale_price) AS sum, SUM(purchase_price) AS sum
   ### 多重order by
   
 注意在多重order by的时候，如图，优先级为regist_date > purchase_price，那么相应的code也需要根据优先级顺序由先到后编写
-![image](https://github.com/Ramhxl/SQL/edit/main/images/ch02_order_by.png)
+
+![image](https://github.com/Ramhxl/SQL/blob/main/images/ch02_order_by.png)
+
 ```sql
 -- 思考 ORDER BY 子句的内容
 SELECT *
