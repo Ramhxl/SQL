@@ -31,4 +31,8 @@ UPDATE productsum
   SET sale_price = '5000'
   WHERE (product_type = '办公用品' AND product_id <> '0'); -- Because product_id is a primary key
 ```
+成功update
 
+![image](https://github.com/Ramhxl/SQL/blob/main/images/ch03_update.png)
+
+### 
